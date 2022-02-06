@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExcelDatabaseThesis.Models.Data.Filter.DeleteFilterRequest" Collapsed="true">
+    <Position X="29.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Data\Filter\DeleteFilterRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Data.Filter.Filter" Collapsed="true">
+    <Position X="22.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Data\Filter\Filter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Data.Filter.FilterElement" Collapsed="true">
+    <Position X="36.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAABAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Models\Data\Filter\FilterElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Data.BaseCellData" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAAAAAAAAAAAgAAAQAgAAAAABA=</HashCode>
+      <FileName>Models\Data\BaseCellData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Data.BaseRowData">
+    <Position X="7" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAIAQAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Data\BaseRowData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Data.BaseTableData">
+    <Position X="10" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAAAEAAACAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\Data\BaseTableData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Data.FileData">
+    <Position X="58" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAACAAAAAAAAAAAAAAAAAQAAAAABA=</HashCode>
+      <FileName>Models\Data\FileData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Form.ExcelRenameForm" Collapsed="true">
+    <Position X="24.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Form\ExcelRenameForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Form.ExcelUploadElem" Collapsed="true">
+    <Position X="27" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAIAAAAQQAAAAA=</HashCode>
+      <FileName>Models\Form\ExcelUploadElem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Form.ExcelUploadForm" Collapsed="true">
+    <Position X="39" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Form\ExcelUploadForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.Form.ExcelUploadResponse" Collapsed="true">
+    <Position X="50.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAEAAAQAAAAA=</HashCode>
+      <FileName>Models\Form\ExcelUploadResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.List.BaseQueryObject&lt;T&gt;" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\List\BaseQueryObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.List.PageableRequest" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAABAAAAAAAEIAAAAABAEBEEAAAAACCAAAAAAAA=</HashCode>
+      <FileName>Models\List\PageableRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.List.PageableResponse&lt;T&gt;" Collapsed="true">
+    <Position X="34" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\List\PageableResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.List.RowDeleteRequest" Collapsed="true">
+    <Position X="43.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\List\RowDeleteRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Models.ErrorViewModel" Collapsed="true">
+    <Position X="41.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ErrorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Repositories.ExcelCellRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMAAAAAAAAAAAAAAAAQAAAEAAIAAAgAAAAAABIA=</HashCode>
+      <FileName>Repositories\ExcelCellRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Repositories.ExcelRowRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="55.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQIAMAAAAAAAAAAAAAAAASAIAEAAAgAAgAAAAAABIA=</HashCode>
+      <FileName>Repositories\ExcelRowRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Repositories.ExcelTableRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMAAAAAAAAAAAAAAAgSAIAEAAAAAAgAAAAAABIg=</HashCode>
+      <FileName>Repositories\ExcelTableRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Repositories.FileDataRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMAAEAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAABIA=</HashCode>
+      <FileName>Repositories\FileDataRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Repositories.FilterRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAABIA=</HashCode>
+      <FileName>Repositories\FilterRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Utils.StringUtil" Collapsed="true">
+    <Position X="48.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\StringUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Controllers.ExcelController" Collapsed="true">
+    <Position X="64.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAABAAAAAAAAAAgAIAEAAAAAAAEAAAACAAI=</HashCode>
+      <FileName>Controllers\ExcelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Controllers.HomeController" Collapsed="true">
+    <Position X="64.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Services.ExcelService" Collapsed="true">
+    <Position X="60.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAYAAAAAAACEAAIAAQAAgAAIACAEAgAIBAmgBACAAA=</HashCode>
+      <FileName>Services\ExcelService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Data.ExcelContext" Collapsed="true">
+    <Position X="62.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAEAAAAAAAAAAIAAAAAAEAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Data\ExcelContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Controllers.ExcelRestController" Collapsed="true">
+    <Position X="62.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQgAAAAAAAAAQIAAQAAAAAKAEACAAAAAACAAACAAA=</HashCode>
+      <FileName>Controllers\ExcelRestController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="33.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ExcelDatabaseThesis.Startup" Collapsed="true">
+    <Position X="31.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ExcelDatabaseThesis.Repositories.IBaseRepositry&lt;T&gt;" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IBaseRepositry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExcelDatabaseThesis.Repositories.IExcelCellRepository" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Repositories\IExcelCellRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExcelDatabaseThesis.Repositories.IExcelRowRepository" Collapsed="true">
+    <Position X="15" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Repositories\IExcelRowRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExcelDatabaseThesis.Repositories.IExcelTableRepository" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgQAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Repositories\IExcelTableRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExcelDatabaseThesis.Repositories.IFileDataRepository" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Repositories\IFileDataRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExcelDatabaseThesis.Repositories.IFilterRepository" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Repositories\IFilterRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ExcelDatabaseThesis.Models.Data.ExtendedCellType" Collapsed="true">
+    <Position X="62.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAQAAAQAAQAAAAAACAAAABAABAAAAAAAAABA=</HashCode>
+      <FileName>Models\Data\ExtendedCellType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExcelDatabaseThesis.Models.Form.ExcelUploadMultipleAcceptanceType" Collapsed="true">
+    <Position X="62.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAEACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\Form\ExcelUploadMultipleAcceptanceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExcelDatabaseThesis.Models.Form.ExcelUploadStatus" Collapsed="true">
+    <Position X="64.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Form\ExcelUploadStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExcelDatabaseThesis.Models.List.OrderType" Collapsed="true">
+    <Position X="64.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Models\List\OrderType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,33 @@
+version: "3.8"
+services:
+  excel_thesis_app:
+    build: .
+    image: excel_thesis_app
+    container_name: excel-thesis-app
+    depends_on:
+      - postgres
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=postgres;Port=5432;Database=excel_user;UserId=Excel;Password=password;
+    restart: always
+    ports:
+      - 8081:80
+      - 8082:443
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+    - POSTGRES_USER=excel_user
+    - POSTGRES_PASSWORD=password
+    restart: always
+    volumes:
+    - ./db/postgres:/docker-entrypoint-initdb.d
+    - postgresql:/var/lib/postgresql
+    - postgresql_data:/var/lib/postgresql/data
+    ports:
+    - 5432:5432
+
+volumes:
+  dbdata:
+  postgresql:
+  postgresql_data:
